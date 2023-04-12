@@ -1,0 +1,71 @@
+local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Rayfield/main/source'))()
+getgenv().SecureMode = true
+
+local Window = Rayfield:CreateWindow({
+    Name = "PawLeS script hub",
+    LoadingTitle = "PawLeS script Hub",
+    LoadingSubtitle = "Thank for use my script hub",
+})
+local Tab = Window:CreateTab("Pet Simulator X")
+local Section = Tab:CreateSection("Script Hub")
+local TabAdp = Window:CreateTab("Adopt Me!")
+local SectionAdp = TabAdp:CreateSection("Script Hub")
+local TabArsn = Window:CreateTab("Arsenal")
+local SectionArsn = TabArsn:CreateSection("Script Hub")
+local TabBh = Window:CreateTab("Brookhaven")
+local SectionBh = TabBh:CreateSection("Script Hub")
+local TabBF = Window:CreateTab("Blox Fruits")
+local SectionBF = TabBF:CreateSection("Script Hub")
+
+local Label = Tab:CreateLabel("Thanks for using PawLeS script Hub")
+local Label = TabAdp:CreateLabel("Thanks for using PawLeS script Hub")
+local Label = TabArsn:CreateLabel("Thanks for using PawLeS script Hub")
+local Label = TabBh:CreateLabel("Thanks for using PawLeS script Hub")
+local Label = TabBF:CreateLabel("Thanks for using PawLeS script Hub")
+
+local Button = Tab:CreateButton({
+    Name = "Pet Simulator X",
+    Callback = function()
+        loadstring(game:HttpGet("https://milkup.info/script/PetSimulatorX/"))()
+    end,
+})
+
+local Button = Tab:CreateButton({
+    Name = "Pet Simulator X visual changer",
+    Callback = function()
+        loadstring(game:HttpGet("https://rizzhub.xyz/scripts/Visual.lua", true))()
+    end,
+})
+local label = Tab:CreateLabel("Code is RizzHubVisual")
+
+local Button = TabBF:CreateButton({
+    Name = "Blox Fruits",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/CFrame3310/CFrameHub/main/BloxFruitV2.lua"))()
+    end,
+})
+local Button = TabAdp:CreateButton({
+    Name = "Adopt Me!",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Szymon5555/AdoptmeKloopsik/main/adoptme.txt"))()
+    end,
+})
+local Button = TabArsn:CreateButton({
+    Name = "Arsenal",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init", true))()
+    end,
+})
+
+local Button = TabArsn:CreateButton({
+    Name = "Arsenal v2",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+    end,
+})
+local Button = TabBh:CreateButton({
+    Name = "Brookhaven",
+    Callback = function()
+        loadstring(game:HttpGet('https://icehub.cf/IceHubLoader'))()
+    end,
+})
