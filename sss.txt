@@ -53,13 +53,6 @@ local Button = TabAdp:CreateButton({
 local Button = TabArsn:CreateButton({
     Name = "Arsenal",
     Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init", true))()
-    end,
-})
-
-local Button = TabArsn:CreateButton({
-    Name = "Arsenal v2",
-    Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
     end,
 })
