@@ -24,7 +24,7 @@ local Label = TabBh:CreateLabel("Thanks for using PawLeS script Hub")
 local Label = TabBF:CreateLabel("Thanks for using PawLeS script Hub")
 
 local Button = Tab:CreateButton({
-    Name = "Pet Simulator X",
+    Name = "Pet Simulator X Milk Up",
     Callback = function()
         loadstring(game:HttpGet("https://milkup.info/script/PetSimulatorX/"))()
     end,
@@ -37,6 +37,13 @@ local Button = Tab:CreateButton({
     end,
 })
 local label = Tab:CreateLabel("Code is RizzHubVisual")
+
+local Button = Tab:CreateButton({
+    Name = "Pet Simulator X CloudHub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/BadScripters/CloudHub/main/hub"))()
+    end,
+})
 
 local Button = TabBF:CreateButton({
     Name = "Blox Fruits",
