@@ -83,7 +83,18 @@ local Button = TabPsx:CreateButton({
         loadstring(game:HttpGet("https://raw.githubusercontent.com/BadScripters/CloudHub/main/hub"))()
     end,
 })
-
+local Button = TabAdp:CreateButton({
+    Name = "Adopt Me!",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Szymon5555/AdoptmeKloopsik/main/adoptme.txt"))()
+    end,
+})
+local Button = TabArsn:CreateButton({
+    Name = "Arsenal",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+    end,
+})
 local Button = TabBF:CreateButton({
     Name = "Blox Fruits",
     Callback = function()
