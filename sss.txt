@@ -65,7 +65,7 @@ local Button = Tab:CreateButton({
 local Button = TabPsx:CreateButton({
     Name = "Pet Simulator X Milk Up",
     Callback = function()
-        loadstring(game:HttpGet("https://milkup.info/script/PetSimulatorX/"))()
+        loadstring(game:HttpGet("https://MilkUp.info/script"))()
     end,
 })
 
