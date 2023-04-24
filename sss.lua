@@ -71,15 +71,6 @@ local Button = TabPsx:CreateButton({
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Muhammad6196/Project-WD/main/Mainstring.lua"))()
     end,
 })
-
-local Button = TabPsx:CreateButton({
-    Name = "Pet Simulator X visual changer",
-    Callback = function()
-        loadstring(game:HttpGet("http://rizz.ct8.pl/scripts/Visual", true))()
-    end,
-})
-local label = TabPsx:CreateLabel("Code is RizzBetter")
-
 local Button = TabPsx:CreateButton({
     Name = "Pet Simulator X CloudHub",
     Callback = function()
