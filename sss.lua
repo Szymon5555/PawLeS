@@ -2,8 +2,8 @@ local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shle
 getgenv().SecureMode = true
 
 local Window = Rayfield:CreateWindow({
-    Name = "PawLeS script hub v1.25",
-    LoadingTitle = "PawLeS script Hub v1.25",
+    Name = "PawLeS script hub v1.3",
+    LoadingTitle = "PawLeS script Hub v1.3",
     LoadingSubtitle = "Thank for use my script hub",
 })
 local Tab = Window:CreateTab("Maın Scripts")
@@ -170,17 +170,19 @@ local Button = TabBh:CreateButton({
     end,
 })
 local Button = TabDoors:CreateButton({
-    Name = "Doors gui OP",
+    Name = "Doors gui WD (need key)",
     Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Doors/Script.lua"))()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/Muhammad6196/Project-WD/main/Mainstring.lua"))()
     end,
 })
 local Button = TabDoors:CreateButton({
     Name = "Doors gui",
     Callback = function()
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/Szymon5555/Doorscript/main/doorsscript.txt'))()
+       loadstring(game:HttpGet(“https://raw.githubusercontent.com/toosiwhip/toosi_scripts/main/doorsV4.lua”))()
     end,
 })
+local label = TabDoors:CreateLabel("Code is mz9lbyludd")
+mz9lbyludd
 local Button = TabDoors:CreateButton({
     Name = "Doors free items",
     Callback = function()
