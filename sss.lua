@@ -178,14 +178,7 @@ local Button = TabDoors:CreateButton({
 local Button = TabDoors:CreateButton({
     Name = "Doors gui",
     Callback = function()
-       loadstring(game:HttpGet(“https://raw.githubusercontent.com/toosiwhip/toosi_scripts/main/doorsV4.lua”))()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/toosiwhip/toosi_scripts/main/doorsV4.lua"))()
     end,
 })
 local label = TabDoors:CreateLabel("Code is mz9lbyludd")
-mz9lbyludd
-local Button = TabDoors:CreateButton({
-    Name = "Doors free items",
-    Callback = function()
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/ShadowScripts4Roblox/PROTECTEDLUA/main/Scripts/DOORS/5.2.lua'))()
-    end,
-})
