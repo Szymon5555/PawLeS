@@ -188,7 +188,7 @@ local Button = TabDoors:CreateButton({
     end,
 })
 local Button = TabDoors:CreateButton({
-    Name = "Doors gui plamen Execute in game",
+    Name = "Doors gui",
     Callback = function()
      loadstring(game:HttpGet('https://raw.githubusercontent.com/Szymon5555/Doorscript/main/doorsscript.txt'))()
     end,
