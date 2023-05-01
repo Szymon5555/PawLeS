@@ -176,12 +176,6 @@ local Button = TabBh:CreateButton({
     end,
 })
 local Button = TabDoors:CreateButton({
-    Name = "Doors gui WD (need key)",
-    Callback = function()
-       loadstring(game:HttpGet("https://raw.githubusercontent.com/Muhammad6196/Project-WD/main/Mainstring.lua"))()
-    end,
-})
-local Button = TabDoors:CreateButton({
     Name = "Doors gui Vynixius Execute in game",
     Callback = function()
      loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Doors/Script.lua"))()
@@ -193,12 +187,9 @@ local Button = TabDoors:CreateButton({
      loadstring(game:HttpGet('https://raw.githubusercontent.com/plamen6789/UtilitiesHub/main/UtilitiesGUI'))()
     end,
 })
-
-
 local Button = TabDoors:CreateButton({
-    Name = "Doors gui",
+    Name = "Doors gui plamen Execute in game",
     Callback = function()
-       loadstring(game:HttpGet("https://raw.githubusercontent.com/toosiwhip/toosi_scripts/main/doorsV4.lua"))()
+     loadstring(game:HttpGet('https://raw.githubusercontent.com/Szymon5555/Doorscript/main/doorsscript.txt'))()
     end,
 })
-local label = TabDoors:CreateLabel("Code is mz9lbyludd")
