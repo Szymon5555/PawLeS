@@ -2,8 +2,8 @@ local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shle
 getgenv().SecureMode = true
 
 local Window = Rayfield:CreateWindow({
-    Name = "PawLeS script hub v1.3",
-    LoadingTitle = "PawLeS script Hub v1.3",
+    Name = "PawLeS script hub v2.0",
+    LoadingTitle = "PawLeS script Hub v2.0",
     LoadingSubtitle = "Thank for use my script hub",
 })
 local Tab = Window:CreateTab("Maın Scripts")
