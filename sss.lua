@@ -66,6 +66,12 @@ local Button = Tab:CreateButton({
     end,
 })
 local Button = TabPsx:CreateButton({
+    Name = "Milk Up!",
+    Callback = function()
+   loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/a82cd5447cbbc4c7be0e8db405555787.lua"))()
+    end,
+})
+local Button = TabPsx:CreateButton({
     Name = "Project WD (need key)",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Muhammad6196/Project-WD/main/Mainstring.lua"))()
