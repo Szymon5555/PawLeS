@@ -176,6 +176,20 @@ local Button = TabDoors:CreateButton({
     end,
 })
 local Button = TabDoors:CreateButton({
+    Name = "Doors gui Vynixius Execute in game",
+    Callback = function()
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Doors/Script.lua"))()
+    end,
+})
+local Button = TabDoors:CreateButton({
+    Name = "Doors gui plamen Execute in game",
+    Callback = function()
+     loadstring(game:HttpGet('https://raw.githubusercontent.com/plamen6789/UtilitiesHub/main/UtilitiesGUI'))()
+    end,
+})
+
+
+local Button = TabDoors:CreateButton({
     Name = "Doors gui",
     Callback = function()
        loadstring(game:HttpGet("https://raw.githubusercontent.com/toosiwhip/toosi_scripts/main/doorsV4.lua"))()
