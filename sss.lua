@@ -193,3 +193,10 @@ local Button = TabDoors:CreateButton({
      loadstring(game:HttpGet('https://raw.githubusercontent.com/Szymon5555/Doorscript/main/doorsscript.txt'))()
     end,
 })
+local Button = TabDoors:CreateButton({
+    Name = "Doors gui",
+    Callback = function()
+     loadstring(game:HttpGet('https://raw.githubusercontent.com/Szymon5555/Doorscript/main/doorsscript.txt'))()
+    end,
+})
+local label = TabDoors:CreateLabel("Code is mz9lbyludd")
