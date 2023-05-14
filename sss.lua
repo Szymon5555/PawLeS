@@ -196,7 +196,7 @@ local Button = TabDoors:CreateButton({
 local Button = TabDoors:CreateButton({
     Name = "Doors gui",
     Callback = function()
-     loadstring(game:HttpGet('https://raw.githubusercontent.com/Szymon5555/Doorscript/main/doorsscript.txt'))()
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/toosiwhip/toosi_scripts/main/doorsV4.lua"))()
     end,
 })
 local label = TabDoors:CreateLabel("Code is mz9lbyludd")
