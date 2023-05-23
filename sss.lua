@@ -188,11 +188,19 @@ local Button = TabDoors:CreateButton({
     end,
 })
 local Button = TabDoors:CreateButton({
-    Name = "Doors gui",
+    Name = "Doors gui my",
     Callback = function()
      loadstring(game:HttpGet('https://raw.githubusercontent.com/Szymon5555/Doorscript/main/doorsscript.txt'))()
     end,
 })
+local Button = TabDoors:CreateButton({
+    Name = "Doors gui mshub",
+    Callback = function()
+     loadstring(game:HttpGet(("https://raw.githubusercontent.com/mstudio45/MSDOORS/main/MSHUB_Loader.lua"),true))()
+    end,
+})
+local label = TabDoors:CreateLabel("Works only on fluxux and synapse x")
+
 local Button = TabDoors:CreateButton({
     Name = "Doors gui",
     Callback = function()
